@@ -14,4 +14,4 @@ steps:
 - bash: conda create --yes --quiet --name myEnvironment python=$PYTHON_VERSION # [other packages ...]
   displayName: Create Anaconda environment
 
-- script: python helloworld.py
+- script: python hello.py
